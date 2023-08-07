@@ -28,6 +28,8 @@ Click "Reset" 🔄 to reset the stopwatch to 00:00:00.
 
 4. Conditional Statements: control background images and stopwatch behavior.
 
-![Image](https://github.com/akshaysadalgekar03/tip-calculator/blob/main/Tip%20Calculator%20ScreenShot.png)
+![Image](https://github.com/akshaysadalgekar03/moody-stopwatch/blob/main/moody-stopwatch1.png)
+
+![Image](https://github.com/akshaysadalgekar03/moody-stopwatch/blob/main/moody-stopwatch2.png)
 
 Enjoy an efficient and delightful user experience with this simple and powerful Moody Stop Watch! 🕰️🎉
