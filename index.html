@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moody Stop Watch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="select-mood">
+        <div class="mood hiit">High Intensity Interval Training (HIIT) Mood </div>
+        <div class="mood tabata">Tabata Mood</div>
+    </div>
+    <div class="mood-img-container">
+        <div class="box first"></div>
+        <div class="box center-box"></div>
+        <div class="box last"></div>
+    </div>
+    <div class="stopwatch">
+        <div class="display">
+            <h1 id="time">00:00:00</h1>
+        </div>
+        <div class="buttons">
+            <div class="controls">
+                <img width="96" height="96" src="https://img.icons8.com/material-rounded/96/pause--v1.png" alt="pause" onclick="watchStop()" />
+            </div>
+            <div class="controls">
+                <img width="96" height="96" src="https://img.icons8.com/material-rounded/96/play--v1.png" alt="play" onclick="watchStart()" />
+            </div>
+            <div class="controls">
+                <img width="90" height="90" src="https://img.icons8.com/material-rounded/96/recurring-appointment.png" alt="reset" onclick="watchReset()" />
+            </div>
+        </div>
+        <div id="reset-mood">
+            <button>RESET MOOD</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
